@@ -1,0 +1,79 @@
+[
+  {
+    "model": "api.ingrediente",
+    "pk": 1,
+    "fields": {
+      "nome": "Alface",
+      "valor": 0.40
+    }
+  },
+  {
+    "model": "api.ingrediente",
+    "pk": 2,
+    "fields": {
+      "nome": "Bacon",
+      "valor": 2.00
+    }
+  },
+  {
+    "model": "api.ingrediente",
+    "pk": 3,
+    "fields": {
+      "nome": "Hambúrguer de carne",
+      "valor": 3.00
+    }
+  },
+  {
+    "model": "api.ingrediente",
+    "pk": 4,
+    "fields": {
+      "nome": "Ovo",
+      "valor": 0.80
+    }
+  },
+  {
+    "model": "api.ingrediente",
+    "pk": 5,
+    "fields": {
+      "nome": "Queijo",
+      "valor": 1.50
+    }
+  },
+
+
+  {
+    "model": "api.lanche",
+    "pk": 1,
+    "fields": {
+      "nome": "X-Bacon", "ingredientes": "Bacon, hambúrguer de carne e queijo"
+    }
+  },
+  {
+    "model": "api.lanche",
+    "pk": 2,
+    "fields": {
+      "nome": "X-Burger", "ingredientes": "Hambúrguer de carne e queijo"
+    }
+  },
+  {
+    "model": "api.lanche",
+    "pk": 3,
+    "fields": {
+      "nome": "X-Egg", "ingredientes": "Ovo, hambúrguer de carne e queijo"
+    }
+  },
+  {
+    "model": "api.lanche",
+    "pk": 4,
+    "fields": {
+      "nome": "X-Egg Bacon", "ingredientes": "Ovo, bacon, hambúrguer de carne e queijo"
+    }
+  },
+  {
+    "model": "api.lanche",
+    "pk": 5,
+    "fields": {
+      "nome": "Personalizado", "ingredientes": "Ovo, bacon, hambúrguer de carne e queijo"
+    }
+  }
+]

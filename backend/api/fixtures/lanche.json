@@ -1,0 +1,37 @@
+[
+  {
+    "model": "api.lanche",
+    "pk": 1,
+    "fields": {
+      "nome": "X-Bacon", "ingredientes": "Bacon, hambúrguer de carne e queijo"
+    }
+  },
+  {
+    "model": "api.lanche",
+    "pk": 2,
+    "fields": {
+      "nome": "X-Burger", "ingredientes": "Hambúrguer de carne e queijo"
+    }
+  },
+  {
+    "model": "api.lanche",
+    "pk": 3,
+    "fields": {
+      "nome": "X-Egg", "ingredientes": "Ovo, hambúrguer de carne e queijo"
+    }
+  },
+  {
+    "model": "api.lanche",
+    "pk": 4,
+    "fields": {
+      "nome": "X-Egg Bacon", "ingredientes": "Ovo, bacon, hambúrguer de carne e queijo"
+    }
+  },
+  {
+    "model": "api.lanche",
+    "pk": 5,
+    "fields": {
+      "nome": "Personalizado", "ingredientes": "Ovo, bacon, hambúrguer de carne e queijo"
+    }
+  }
+]
