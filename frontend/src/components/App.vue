@@ -151,7 +151,6 @@ export default {
       if (qntItem >= 3) {
         let qntDiscount = Math.floor(qntItem / 3)
         let discount = qntDiscount * price
-        console.log(discount, 22222)
 
         this.valorTotalPedido -= discount
       }

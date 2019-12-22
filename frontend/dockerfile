@@ -1,0 +1,10 @@
+FROM gustavohenrique/vue-cli:10-slim
+ADD . /app
+
+ENV HOST=0.0.0.0
+
+RUN cd /app \
+ && npm install && npm run build
+
+WORKDIR /app
+CMD ["npm", "run", "dev"]
