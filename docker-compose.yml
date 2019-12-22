@@ -1,0 +1,21 @@
+
+version: "3"
+services:
+  frontend:
+    build:
+      context: ./frontend
+    container_name: frontend
+    hostname: frontend
+    ports:
+      - "8080:8080"
+    network_mode: host
+    depends_on:
+      - backend
+
+  backend:
+    build: ./backend
+    container_name: backend
+    hostname: backend
+    ports:
+      - "8000:8000"
+    network_mode: host

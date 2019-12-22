@@ -2,7 +2,7 @@ FROM frolvlad/alpine-python3
 ADD . /app
 
 RUN cd /app \
- && pip3 install django && \
+ && pip install --upgrade pip && pip3 install django && \
  pip3 install djangorestframework && pip3 install django-cors-headers
 
 WORKDIR /app

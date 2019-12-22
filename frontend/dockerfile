@@ -7,4 +7,5 @@ RUN cd /app \
  && npm install && npm run build
 
 WORKDIR /app
+RUN npm test
 CMD ["npm", "run", "dev"]

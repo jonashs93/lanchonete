@@ -62,11 +62,7 @@ export default {
       this.form.lanche = null
       this.form.ingredientes = []
       this.valorLanche = 0.0
-      // Trick to reset/clear native browser form validation state
       this.show = true
-      // this.$nextTick(() => {
-      //   this.show = true
-      // })
     },
 
     setIngredientes () {
