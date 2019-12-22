@@ -2,8 +2,6 @@
 
 > A Vue.js project
 
-## Build Setup
-
 # Instalação manual
 
 ``` bash
@@ -32,5 +30,5 @@ docker run -it --name frontend --network host frontend
 # Instalação docker remoto
 
 ```bash
-docker run -it --name frontend  --network host jonashs93/vue-cli:1.0
+docker run -it --name frontend --network host jonashs93/vue-cli:1.0
 ```
