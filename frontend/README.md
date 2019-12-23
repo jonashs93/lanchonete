@@ -32,3 +32,5 @@ docker run -it --name frontend --network host frontend
 ```bash
 docker run -it --name frontend --network host jonashs93/vue-cli:1.0
 ```
+
+Para acessar a aplicação basta acessar http://localhost:8080 no navegador
